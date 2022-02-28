@@ -10,7 +10,7 @@ import java.time.Duration
 class CountriesSimulation : Simulation()  {
     private val httpProtocol = HttpDsl.http
         .baseUrl("https://wft-geo-db.p.rapidapi.com")
-        .header("x-rapidapi-key", "62d413d472msh8c21c47c3dfaab7p18f708jsn71c23d442f27")
+        .header("x-rapidapi-key", "")
         .header("x-rapidapi-host", "wft-geo-db.p.rapidapi.com")
 
     private val scn = CoreDsl.scenario("Get countries")
